@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BasicEditor } from "./BasicEditor";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <p className="text-7xl font-margin text-yellow-600">Margin</p>
         <p className="text-yellow-600 font-medium">001 - MoizLabs</p>
       </div>
+      <BasicEditor />
     </main>
   );
 }
